@@ -10,7 +10,7 @@ export default {
   components: { Joke },
   head() {
     return {
-      title: this.joke,
+      title: this.joke.joke,
       meta: [{ hid: "desc", name: "desc", content: "jokes are coming" }]
     };
   },
